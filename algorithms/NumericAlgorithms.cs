@@ -6,7 +6,7 @@ namespace algorithms
 {
     public class NumericAlgorithms
     {
-        public int reverse(int num)
+        public int Reverse(int num)
         {
             int output = 0;
             while(num>0)
