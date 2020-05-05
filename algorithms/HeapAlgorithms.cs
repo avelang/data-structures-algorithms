@@ -4,8 +4,9 @@ namespace algorithms
 {
     public class HeapAlgorithms
     {
+        // Problem : Max Heapify an array
         // given an array A & the index i, 
-        // identify the largest among i, left(2i+1) & right(2i+2) & set it to i.
+        // identify the largest among i, left, i.e. (2i+1) & right, i.e. (2i+2) & set it to i.
         public int[] MaxHeapify(int[] array, int i)
         {
             int largest = i;
